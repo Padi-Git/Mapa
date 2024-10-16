@@ -2,6 +2,7 @@ import dash
 from dash import dcc, html
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(children=[
     html.H1("Hola Dash"),
